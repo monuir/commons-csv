@@ -59,7 +59,7 @@ public class PerformanceTest {
 
     };
 
-    private static int max = 10;
+    private static int max = 2;
 
     private static int num = 0; // number of elapsed times recorded
     private static long[] elapsedTimes = new long[max];
