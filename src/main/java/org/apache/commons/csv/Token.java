@@ -29,7 +29,7 @@ import static org.apache.commons.csv.Token.Type.INVALID;
 final class Token {
 
     /** length of the initial token (content-)buffer */
-    private static final int INITIAL_TOKEN_LENGTH = 10;
+    private static final int INITIAL_TOKEN_LENGTH = 2;
 
     enum Type {
         /** Token has no valid content, i.e. is in its initialized state. */
